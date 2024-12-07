@@ -1,0 +1,46 @@
+[
+  {
+    "command": "Type command here and press Enter",
+    "command_info": {
+      "timestamp": "2024-11-18T18:40:22.478909",
+      "mask2d": false,
+      "mask3d": false,
+      "region": {
+        "projection": 3,
+        "zone": 0,
+        "n": 90.0,
+        "s": -90.0,
+        "w": -180.0,
+        "e": 180.0,
+        "nsres": 1.0,
+        "ewres": 1.0,
+        "rows": 180,
+        "cols": 360,
+        "cells": 64800
+      },
+      "status": "success"
+    }
+  },
+  {
+    "command": "g.list",
+    "command_info": {
+      "timestamp": "2024-11-18T18:40:51.552479",
+      "mask2d": false,
+      "mask3d": false,
+      "region": {
+        "projection": 3,
+        "zone": 0,
+        "n": 90.0,
+        "s": -90.0,
+        "w": -180.0,
+        "e": 180.0,
+        "nsres": 1.0,
+        "ewres": 1.0,
+        "rows": 180,
+        "cols": 360,
+        "cells": 64800
+      },
+      "status": "success"
+    }
+  }
+]

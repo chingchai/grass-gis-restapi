@@ -1,0 +1,69 @@
+[
+  {
+    "command": "g.region raster=elev_lid792_1m -p",
+    "command_info": {
+      "timestamp": "2024-12-07T06:39:37.419595",
+      "mask2d": false,
+      "mask3d": false,
+      "region": {
+        "projection": 99,
+        "zone": 0,
+        "n": 221230.0,
+        "s": 219580.0,
+        "w": 637740.0,
+        "e": 639530.0,
+        "nsres": 10.0,
+        "ewres": 10.0,
+        "rows": 165,
+        "cols": 179,
+        "cells": 29535
+      },
+      "status": "success"
+    }
+  },
+  {
+    "command": "r.slope.aspect elevation=elev_lid792_1m dx=elev_lid792_dx dy=elev_lid792_dy",
+    "command_info": {
+      "timestamp": "2024-12-07T06:40:03.816307",
+      "mask2d": false,
+      "mask3d": false,
+      "region": {
+        "projection": 99,
+        "zone": 0,
+        "n": 220750.0,
+        "s": 220000.0,
+        "w": 638300.0,
+        "e": 639000.0,
+        "nsres": 1.0,
+        "ewres": 1.0,
+        "rows": 750,
+        "cols": 700,
+        "cells": 525000
+      },
+      "status": "success"
+    }
+  },
+  {
+    "command": "r.sim.water elevation=elev_lid792_1m dx=elev_lid792_dx dy=elev_lid792_dy depth=water_depth disch=water_discharge nwalk=10000 rain_value=100 niter=5",
+    "command_info": {
+      "timestamp": "2024-12-07T06:40:33.129783",
+      "mask2d": false,
+      "mask3d": false,
+      "region": {
+        "projection": 99,
+        "zone": 0,
+        "n": 220750.0,
+        "s": 220000.0,
+        "w": 638300.0,
+        "e": 639000.0,
+        "nsres": 1.0,
+        "ewres": 1.0,
+        "rows": 750,
+        "cols": 700,
+        "cells": 525000
+      },
+      "status": "success",
+      "runtime": 12
+    }
+  }
+]
