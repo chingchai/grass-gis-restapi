@@ -70,3 +70,4 @@ curl -X POST http://localhost:8000/simulate-water \
 - https://grasswiki.osgeo.org/wiki/GRASS_GIS_APIs
 - https://actinia-org.github.io/actinia-core/
 - https://fastapi.tiangolo.com/
+- https://fastflood.org/site/_site/
