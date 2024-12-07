@@ -53,3 +53,4 @@ grass-rest.db
 .idea/
 .env
 app/.DS_Store
+grassdata/.DS_Store
