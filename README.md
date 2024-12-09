@@ -7,6 +7,8 @@ RESTful API Server for GRASS GIS
 grass-fastapi/
 ├── app/
 │   ├── main.py
+│   ├── static
+│   │   ├── your_files_here
 ├── Dockerfile
 ├── requirements.txt
 ├── docker-compose.yml
